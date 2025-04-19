@@ -15,11 +15,11 @@ const Navbar = () => {
             className='h-auto w-auto flex flex-row items-center'
             >
                  <div className='hover:animate-spin-slow pr-2'>
-                  <p className='Welcome-text'>HM</p>
+                  <p className='Welcome-text'>JS</p>
                  </div>
 
                 <span className='font-bold ml-[10px] hidden md:block text-gray-300 pl-2'>
-                    Hassan Mehmood
+                    Jasmine Shangguan
                 </span>
             </a>
 
@@ -38,13 +38,13 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5 pt-6">
-          <a href="https://github.com/mehassanhmood" target="_blank" className='text-gray-200 hover:text-purple-300 cursor-pointer'>
+          <a href="https://github.com/jasmine-shangguan" target="_blank" className='text-gray-200 hover:text-purple-300 cursor-pointer'>
           <RxGithubLogo />
           </a>
-          <a href="https://www.linkedin.com/in/15-hassanmehmood/" target='_blank' className='text-gray-200 hover:text-purple-300 cursor-pointer'>
+          <a href="https://www.linkedin.com/in/jasmine-shangguan/" target='_blank' className='text-gray-200 hover:text-purple-300 cursor-pointer'>
           <RxLinkedinLogo />
           </a>
-          <a href="mailto:mehassanhmood@gmail.com" className='text-gray-200 hover:text-purple-300 cursor-pointer'>
+          <a href="mailto:jasmine.shangguan@gmail.com" className='text-gray-200 hover:text-purple-300 cursor-pointer'>
             <RxEnvelopeClosed/>
           </a>
         </div>

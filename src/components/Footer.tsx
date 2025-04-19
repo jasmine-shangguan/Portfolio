@@ -41,19 +41,10 @@ const Footer = () => {
                 >
                     <div className='font-bold text-[16px] text-gray-200' >About</div>
                     <a
-                    href="mailto:mehassanhmood@gmail.com" target="_blank"
+                    href="mailto:jasmine.shangguan@gmail.com" target="_blank"
                     className='flex flex-row items-center my-[15px] cursor-pointer text-gray-200 hover:text-purple-300 duration-200'>
                         <RxEnvelopeClosed />
                         <span className='text-[15px] ml-[6px]'>Email</span>
-                    </a>
-                    <a
-                    href='./hassan_CV.pdf'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    download
-                    className='cursor-pointer flex flex-row items-center my-[15px] text-gray-200 hover:text-purple-300 duration-200'>
-                    <RxDownload />
-                    <span className='text-[15px] ml-[6px]'>Download CV</span>
                     </a>
                 </div>
             </div>
