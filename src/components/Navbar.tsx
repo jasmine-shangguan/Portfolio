@@ -24,27 +24,27 @@ const Navbar = () => {
             </a>
 
             <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between  text-xs md:text-md w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+          <div className="flex items-center justify-between  text-sm md:text-md w-full h-auto border border-[#A9B5DF] bg-[#A9B5DF] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
               About me
             </a>
-            <a href="#skills" className="cursor-pointer">
-              Skills
-            </a>
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="#skills" className="cursor-pointer">
+              Skills
             </a>
           </div>
         </div>
 
         <div className="flex flex-row gap-5 pt-6">
-          <a href="https://github.com/jasmine-shangguan" target="_blank" className='text-gray-200 hover:text-purple-300 cursor-pointer'>
+          <a href="https://github.com/jasmine-shangguan" target="_blank" className='text-gray-200 hover:text-[#F6F0F0] cursor-pointer'>
           <RxGithubLogo />
           </a>
-          <a href="https://www.linkedin.com/in/jasmine-shangguan/" target='_blank' className='text-gray-200 hover:text-purple-300 cursor-pointer'>
+          <a href="https://www.linkedin.com/in/jasmine-shangguan/" target='_blank' className='text-gray-200 hover:text-[#F6F0F0] cursor-pointer'>
           <RxLinkedinLogo />
           </a>
-          <a href="mailto:jasmine.shangguan@gmail.com" className='text-gray-200 hover:text-purple-300 cursor-pointer'>
+          <a href="mailto:jasmine.shangguan@gmail.com" className='text-gray-200 hover:text-[#F6F0F0] cursor-pointer'>
             <RxEnvelopeClosed/>
           </a>
         </div>
