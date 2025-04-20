@@ -7,7 +7,7 @@ const ProjectCard = ({ src, title, description, source_code, deployed_app }) => 
   const [isExpanded, setIsExpanded] = useState(false);
 
 
-  const MAX_LENGTH = 50;
+  const MAX_LENGTH = 100;
   const shouldTruncate = description.length > MAX_LENGTH;
 
 const containerVariants = {
@@ -24,7 +24,7 @@ const containerVariants = {
       initial="initial"
       animate="animate"
       exit={"initial"}
-      className='flex-col justify-around relative w-auto w-max md:w-[300px] overflow-hidden text-wrap rounded-lg shadow-lg border border-[#2A0E61] m-2 '
+      className='flex-col justify-around relative w-auto w-max md:w-[300px] overflow-hidden text-wrap rounded-lg shadow-lg border border-[#7886C7] m-2 '
       >
       <a
       
@@ -53,21 +53,12 @@ const containerVariants = {
           {shouldTruncate && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className='mt-2 text-purple-400 hover:underline text-sm'
+            className='mt-2 text-[#FFECDB] hover:underline text-sm'
             >
             {isExpanded ? 'Read Less' : 'Read More'}
           </button>
           )}
         </div>
-
-        <a 
-          href={source_code}
-          className='ml-4 text-sm bg-clip-text text-transparent bg-gray-100'
-          target='_blank' rel='noopener noreferrer'>
-          <span className=' hover:text-teal-700 hover:bg-clip-text duration-300'>
-            Source code
-          </span>
-         </a>
     </motion.div>
     
   )

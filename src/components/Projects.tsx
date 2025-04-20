@@ -3,17 +3,13 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ProjectsMenu from './sub/ProjectsMenu';
 import ProjectCard from './sub/ProjectCard';
-import { projects} from "./utils/projects";
+import { projects } from "./utils/projects";
 
 
 
 const Projects = () => {
   const [isOpen, setIsOpen] = useState(true);
   const [isActive, setIsActive] = useState("Data Visualization");
-
-
-
-
 
   return (
     
@@ -29,7 +25,7 @@ const Projects = () => {
         <div className="relative h-full flex flex-col w-[30%]">
           <div className='flex w-[full] justify-center'>
             <button
-              className= {`flex w-[full] z-20 justify-center items-center border border-4 border-indigo-500 rounded-full md:text-xs text-transparent bg-clip-text bg-gray-100 backdrop-blur-lg hover:opacity-70  mb-[2] p-7  w-[10px] h-[10px] md:w-[20px] md:h-[25px] transition-transfrom duration-200 ${
+              className= {`flex w-[full] z-20 justify-center items-center border border-4 border-indigo-500 rounded-full md:text-sm text-transparent bg-clip-text bg-gray-100 backdrop-blur-lg hover:opacity-70  mb-[2] p-7  w-[10px] h-[10px] md:w-[20px] md:h-[25px] transition-transfrom duration-200 ${
               isOpen ? "translate-y-0" : "translate-y-10"
               } `}
               onClick={() => setIsOpen(!isOpen)}

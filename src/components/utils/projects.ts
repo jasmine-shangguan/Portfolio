@@ -1,75 +1,36 @@
 
 export const projects = {
     "Data Visualization": [
-      { src: "./inflation_investments.png",  
-        title: "Inflation and Investments",
-        description: "Effects of inflation as a scrolly story",
-        source_code: "https://github.com/mehassanhmood/StoryBoard",
-        deployed_app: "https://mehassanhmood.github.io/StoryBoard/",
+      { src: "./Storyboard.jpg",  
+        title: "Immigrant Impact: Tech Industry Storyboard",
+        description: "A data-driven exploration of immigrants in San Francisco's tech industry, focusing on their diversity, education, and income",
+        deployed_app: "https://jasminesg77.wixsite.com/jasmines-portfolio/portfolio-collections/my-portfolio/soaring-springs-bridge",
       },
       {
-        src: "./JohnSnow.png",
-        title: "John Snow, Cholera and Data",
-        description: "The demystification of miasma",
-        source_code: "https://github.com/mehassanhmood/JohnSnow-CholeraScrolly",
-        deployed_app: "https://mehassanhmood.github.io/JohnSnow-CholeraScrolly/"
+        src: "./SnowMap.jpg",
+        title: "Cholera Map Redesign",
+        description: "An interactive reimagining of John Snow’s 1854 map, combining historical data with modern visualization for clearer insight",
+        deployed_app: "https://jasminesg77.wixsite.com/jasmines-portfolio/portfolio-collections/my-portfolio/museum-of-contemporary-art"
       },
       {
-        src: "./StoryBoarding.png",
-        title: "Human Oriented Story Telling",
-        description: "How the lives have changed because of economic changes",
-        source_code: "https://github.com/mehassanhmood/StoryBoarding",
-        deployed_app: "https://mehassanhmood.github.io/StoryBoarding/"
+        src: "./USElection.jpg",
+        title: "US Election Poll Visual",
+        description: "A data-driven infographic analyzing key polling trends in the 60th U.S. presidential election",
+        deployed_app: "https://jasminesg77.wixsite.com/jasmines-portfolio/portfolio-collections/my-portfolio/skymine-hq"
       },
     ],
     "Data Science": [
       {
-        src: "./neural_transfer.png",
-        title: "Neural Style Transfer",
-        description: "Starry Nights and City of Toronto",
-        source_code: "https://github.com/mehassanhmood/Neural-Style-Transfer",
-        deployed_app: "https://github.com/mehassanhmood/Neural-Style-Transfer",
+        src: "./TopStrategies.jpg",
+        title: "Trading Strategy Evaluation",
+        description: "Evaluating the effectiveness of 9 technical trading strategies compared to the performance of the TD Nasdaq® Index Fund",
+        deployed_app: "https://github.com/jasmine-shangguan/tech-analysis",
       },
       {
-        src: "./Vaes&Gans.png",
-        title: "Image Generation using VAEs and GANs",
-        description: "Comparing GANs and VAEs built from scratch using the Celeb-A dataset, a widely used benchmark dataset for facial image generation.",
-        source_code: "https://github.com/mehassanhmood/ComputerVision",
-        deployed_app: "https://github.com/mehassanhmood/ComputerVision",
-      },
-      {
-        src: "./sentiment-analysis-trading.webp",
-        title: "Sentiment Analysis for Portfolio Optimization",
-        description: "The central aim of this project is to utilize sentiment analysis to understand and predict stock market movements. The project is structured around several key objectives, emphasizing the role of sentiment analysis as a foundational element.",
-        source_code: "https://github.com/mehassanhmood/Portfolio-Optimzation",
-        deployed_app: "https://github.com/mehassanhmood/Portfolio-Optimzation",
-      },
-    ],
-    "Data Engineering": [
-      {
-        src: "./DataFlow.png",
-        title: "ETL Pipeline ",
-        description: " The project involves extracting data from various resources, transforming it, and loading it into different databases.",
-        source_code: "https://github.com/mehassanhmood/BigData-Analytics",
-        deployed_app: "https://github.com/mehassanhmood/BigData-Analytics",
-      },
-      {
-        src: "./Data-Engineering.png",
-        title: "Data Engineering: From Integration to Insights",
-        description: "This project leverages a robust data ecosystem, integrating MySQL, MongoDB, PostgreSQL, Hadoop, and Spark to create seamless ETL pipelines using Apache Airflow. Business insights are derived through IBM Cognos and Tableau dashboards, offering real-time analytics and decision-making support.",
-        source_code: "https://github.com/mehassanhmood/hadoop-spark-pipeline",
-        deployed_app: "https://github.com/mehassanhmood/hadoop-spark-pipeline",
-      },
-    ],
-
-    "Data Analytics":[
-      {
-        src: "./Crowd-Funding.svg",
-        title: "Crowdfunding: Insights and Optimization",
-        description: "This project delves into crowdfunding data to uncover trends in pledges, backers, and campaign outcomes. Key findings include the dominance of U.S.-based campaigns, the optimal duration of five months, and factors influencing success rates.",
-        source_code: "https://github.com/mehassanhmood/Crowdfunding",
-        deployed_app: "https://github.com/mehassanhmood/Crowdfunding",
+        src: "LaneDetection.jpg",
+        title: "Deep Learning for Lane Detection",
+        description: "A pre-trained ResNet-18 CNN, fine-tuned on the TuSimple dataset using PyTorch, accurately detects lane markings in varied real-world driving conditions",
+        deployed_app: "https://github.com/jasmine-shangguan/LaneDetection",
       },
     ]
-    // Add other categories dynamically as needed
   };

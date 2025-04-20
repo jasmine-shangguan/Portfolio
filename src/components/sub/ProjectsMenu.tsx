@@ -20,8 +20,6 @@ const ProjectsMenu = ({isActive, setIsActive}) => {
   const menuItems = [
     "Data Visualization",
     "Data Science",
-    "Data Engineering",
-    "Data Analytics",
   ];
 
   return (
@@ -38,7 +36,7 @@ const ProjectsMenu = ({isActive, setIsActive}) => {
                   onClick={()=>setIsActive(item)}
                   whileTap={{scale:0.97}}
                   variants={itemsVariations}
-                  className={`cursor-pointer p-3 mx-2 my-1 rounded-md w-[140px] z-10 flex flex-wrap text-wrap bg-text-clip text-gray-100 text-xs md:text-md
+                  className={`cursor-pointer p-3 mx-2 my-1 rounded-md w-[140px] z-10 flex flex-wrap text-wrap bg-text-clip text-gray-100 text-sm md:text-md
                     ${isActive === item 
                       ? "bg-purple-700/50" 
                       : "bg-transparent hover:bg-purple-300/50 hover:bg-opacity-50 "
