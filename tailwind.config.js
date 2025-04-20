@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'custom-light': '#FAF1E6',
+      },
       animation: {
         'spin-slow': 'spin 3s linear infinite',
       }
