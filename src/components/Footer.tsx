@@ -1,14 +1,26 @@
+import React from 'react';
 
 import {
     RxGithubLogo,
     RxLinkedinLogo,
     RxEnvelopeClosed,
-    RxDownload
   } from "react-icons/rx";
 
 
 const Footer = () => {
 
+    const getPeepoCount = (): number => {
+        const stored = localStorage.getItem('peepoCount');
+        return stored ? parseInt(stored, 10) : 0;
+      };
+      
+      const [count, updateCount] = React.useState<number>(getPeepoCount());
+      
+      const updatePeepoCount = () => {
+        const newCount = getPeepoCount() + 1;
+        localStorage.setItem('peepoCount', newCount.toString());
+        updateCount(newCount);
+      };      
 
   return (
     <div className='duration-200 w-full h-full bg-transparent shadow-lg p-[15px] z-50'>
@@ -21,15 +33,15 @@ const Footer = () => {
                     <div className='font-bold text-[18px] text-gray-200' >Community</div>
                     
                     <a
-                    href={"https://github.com/mehassanhmood"} target="_blank"
-                    className='flex flex-row items-center my-[15px] cursor-pointer text-gray-200 hover:text-purple-300 duration-200'>
+                    href={"https://github.com/jasmine-shangguan"} target="_blank"
+                    className='flex flex-row items-center my-[15px] cursor-pointer text-gray-200 hover:text-[#F6F0F0] duration-200'>
                         <RxGithubLogo />
                         <span className='text-[15px] ml-[6px] cursor-pointer'>GitHub</span>
                     </a>
 
                     <a
-                    href={"https://www.linkedin.com/in/15-hassanmehmood/"} target="_blank"
-                    className='flex flex-row items-center my-[15px] cursor-pointer text-gray-200 hover:text-purple-300 duration-200'>
+                    href={"https://www.linkedin.com/in/jasmine-shangguan"} target="_blank"
+                    className='flex flex-row items-center my-[15px] cursor-pointer text-gray-200 hover:text-[#F6F0F0] duration-200'>
                         <RxLinkedinLogo />
                         <span className='text-[15px] ml-[6px]'>LinkedIn</span>
                     </a>
@@ -42,15 +54,25 @@ const Footer = () => {
                     <div className='font-bold text-[16px] text-gray-200' >About</div>
                     <a
                     href="mailto:jasmine.shangguan@gmail.com" target="_blank"
-                    className='flex flex-row items-center my-[15px] cursor-pointer text-gray-200 hover:text-purple-300 duration-200'>
+                    className='flex flex-row items-center my-[15px] cursor-pointer text-gray-200 hover:text-[#F6F0F0] duration-200'>
                         <RxEnvelopeClosed />
                         <span className='text-[15px] ml-[6px]'>Email</span>
                     </a>
                 </div>
             </div>
 
-            <div className="mb-[20px] text-[15px] text-center">
-                &copy; My Work 2024 Inc. All rights reserved
+            <div>
+                <span style={{fontSize: "0.8rem", color: "#F5EFFF",}}>You clicked {count} times</span> <br/>
+                <button style={{
+                    fontSize: "0.8rem", 
+                    padding: "6px 12px", 
+                    borderRadius: "8px",
+                    border: "none", 
+                    backgroundColor: "#C4D9FF", 
+                    color: "#FDF7F4", 
+                    cursor: "pointer",
+                    }}  
+                    onClick={() => updatePeepoCount()}> Easter Egg </button>
             </div>
 
         </div>
