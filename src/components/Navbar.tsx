@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React from 'react'
-// import { Socials } from "../constants/index"
 import {
   RxGithubLogo,
   RxLinkedinLogo,

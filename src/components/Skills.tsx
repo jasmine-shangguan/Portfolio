@@ -1,11 +1,10 @@
 // @ts-nocheck
 import React, {useState} from 'react'
 import SkillText from './sub/SkillText'
-import { Skill_data, Frontend_skill, Backend_skill, Full_stack, Other_skill } from '../constants'
+import { Skill_data, Frontend_skill, Backend_skill, Cloud, Other_skill } from '../constants'
 import SkillDataProvider from './sub/SkillDataProvider'
 
 const Skills = () => {
-    const [count, setCounter] = useState(0)
 
   return (
     <div
@@ -52,7 +51,7 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-row justify-around flex-wrap mt-4 items-center gap-5'>
-            {Full_stack.map((image, index)=>(
+            {Cloud.map((image, index)=>(
                 <SkillDataProvider
                 key={index}
                 src={image.Image}
