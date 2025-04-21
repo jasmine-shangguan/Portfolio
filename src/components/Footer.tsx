@@ -61,10 +61,12 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div>
+            <div style={{ marginTop: "1.5rem", marginBottom: "1rem" }}>
                 <span style={{fontSize: "0.8rem", color: "#F5EFFF",}}>You clicked {count} times</span> <br/>
                 <button style={{
                     fontSize: "0.8rem", 
+                    marginLeft: "20px",
+                    marginTop: "6px",
                     padding: "6px 12px", 
                     borderRadius: "8px",
                     border: "none", 
