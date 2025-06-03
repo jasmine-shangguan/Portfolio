@@ -29,7 +29,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
         >
-            From Software Development to Data Science
+            From Software Development to Data Analytics
         </motion.div>
     </div>
   )

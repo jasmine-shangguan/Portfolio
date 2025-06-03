@@ -19,7 +19,7 @@ const ProjectsMenu = ({isActive, setIsActive}) => {
 
   const menuItems = [
     "Data Visualization",
-    "Data Science",
+    "Data Analytics",
   ];
 
   return (

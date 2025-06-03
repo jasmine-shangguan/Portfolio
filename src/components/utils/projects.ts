@@ -19,7 +19,7 @@ export const projects = {
         deployed_app: "https://jasminesg77.wixsite.com/jasmines-portfolio/portfolio-collections/my-portfolio/skymine-hq"
       },
     ],
-    "Data Science": [
+    "Data Analytics": [
       {
         src: "./TopStrategies.jpg",
         title: "Trading Strategy Evaluation",
