@@ -37,7 +37,7 @@ const HeroContent = () => {
         >          
           <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5'/>
           <h1 className='Welcome-text text-[17px] mr-[10px]'>
-              Data Analyst | Ex-Software Developer
+              Data Analyst | Full-Stack Software Developer
           </h1>
         </motion.div>
         <motion.div
@@ -45,12 +45,12 @@ const HeroContent = () => {
         className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
         >
           <span>
-          Passionate About Data Solutions
+          Bridging Business Strategy
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
               {" "}
                &  {" "}
             </span>
-            Application Development
+            Technology Implementation
           </span>
         </motion.div>
 
@@ -58,7 +58,7 @@ const HeroContent = () => {
         variants={slideInFromLeft(0.8)}
         className='text-lg text-custom-light my-5 max-w-[600px]'
         >
-          Leveraging a software development background to turn complex data into actionable insights through innovation and visualization.
+          Combining software engineering expertise with data analytics to deliver data-driven solutions that transform complex requirements into actionable insights and measurable business value.
         </motion.p>
       </div>
     </motion.div>
